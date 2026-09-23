@@ -27,16 +27,3 @@ The notebook works end to end:
 - FinBERT, a finance-specific transformer, fine-tuned with the Hugging Face Trainer API
 
 **Evaluation** - classification reports, per-class F1 comparison across the four models, confusion matrices, and an overall accuracy versus macro-F1 comparison.
-
-## Running the notebook
-
-Open the notebook in Jupyter or a GPU-enabled environment such as Google Colab (recommended for the deep learning and FinBERT sections). Key libraries used:
-
-```
-pandas, numpy, scikit-learn, imbalanced-learn, gensim, nltk,
-tensorflow / keras, transformers, datasets, wordcloud, matplotlib
-```
-
-## Skills demonstrated
-
-Natural language processing, domain-aware text preprocessing, TF-IDF feature engineering, handling imbalanced classes, classical ML (Logistic Regression, SVM) with hyperparameter tuning, deep learning with a bidirectional LSTM, transformer fine-tuning (FinBERT), and model evaluation and comparison using macro-F1 and confusion matrices.
